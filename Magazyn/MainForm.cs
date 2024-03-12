@@ -16,7 +16,7 @@ namespace Magazyn
         {
             InitializeComponent();
         }
-        //fqfq
+      //fqwfqf
         private Form activeForm = null;
         private void openChildForm(Form childForm)
         {
