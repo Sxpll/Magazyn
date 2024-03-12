@@ -27,13 +27,13 @@ namespace Magazyn
         {
             int i = 0;
             dgvUser.Rows.Clear();
-            cm = new SqlCommand("SELECT * FROM tbUser WHERE CONCAT(username, fullname, phone) LIKE '%"+txtSearch.Text+"%' ", con);
+            cm = new SqlCommand("SELECT * FROM tbUser WHERE CONCAT(username, fullname, address, email, phone) LIKE '%"+txtSearch.Text+"%' ", con);
             con.Open();
             dr = cm.ExecuteReader();
             while (dr.Read())
             {
                 i++;
-                dgvUser.Rows.Add(i, dr[0].ToString(), dr[1].ToString(), dr[2].ToString(), dr[3].ToString());
+                dgvUser.Rows.Add(i, dr[0].ToString(), dr[1].ToString(), dr[2].ToString(), dr[3].ToString(), dr[4].ToString(), dr[5].ToString());
             }
             dr.Close();
             con.Close();
@@ -58,7 +58,9 @@ namespace Magazyn
                 userModule.txtUserName.Text = dgvUser.Rows[e.RowIndex].Cells[1].Value.ToString();
                 userModule.txtFullName.Text = dgvUser.Rows[e.RowIndex].Cells[2].Value.ToString();
                 userModule.txtPass.Text = dgvUser.Rows[e.RowIndex].Cells[3].Value.ToString();
-                userModule.txtPhone.Text = dgvUser.Rows[e.RowIndex].Cells[4].Value.ToString();
+                userModule.txtAddress.Text = dgvUser.Rows[e.RowIndex].Cells[4].Value.ToString();
+                userModule.txtEmail.Text = dgvUser.Rows[e.RowIndex].Cells[5].Value.ToString();
+                userModule.txtPhone.Text = dgvUser.Rows[e.RowIndex].Cells[6].Value.ToString();
 
 
                 userModule.btnSave.Enabled = false;

@@ -45,6 +45,10 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.txtRepass = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.Label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).BeginInit();
             this.SuspendLayout();
@@ -89,7 +93,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(60, 147);
+            this.label2.Location = new System.Drawing.Point(60, 111);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 19);
@@ -98,7 +102,7 @@
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(193, 144);
+            this.txtUserName.Location = new System.Drawing.Point(193, 103);
             this.txtUserName.Margin = new System.Windows.Forms.Padding(5);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(385, 27);
@@ -106,7 +110,7 @@
             // 
             // txtFullName
             // 
-            this.txtFullName.Location = new System.Drawing.Point(193, 205);
+            this.txtFullName.Location = new System.Drawing.Point(193, 144);
             this.txtFullName.Margin = new System.Windows.Forms.Padding(5);
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.Size = new System.Drawing.Size(385, 27);
@@ -116,7 +120,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(65, 208);
+            this.label3.Location = new System.Drawing.Point(65, 152);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 19);
@@ -125,7 +129,7 @@
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(193, 265);
+            this.txtPass.Location = new System.Drawing.Point(193, 189);
             this.txtPass.Margin = new System.Windows.Forms.Padding(5);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(385, 27);
@@ -135,7 +139,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(73, 268);
+            this.label4.Location = new System.Drawing.Point(73, 197);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 19);
@@ -144,7 +148,7 @@
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(193, 352);
+            this.txtPhone.Location = new System.Drawing.Point(193, 344);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(5);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(385, 27);
@@ -154,7 +158,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(95, 355);
+            this.label5.Location = new System.Drawing.Point(95, 352);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(66, 19);
@@ -205,7 +209,7 @@
             // 
             // txtRepass
             // 
-            this.txtRepass.Location = new System.Drawing.Point(193, 310);
+            this.txtRepass.Location = new System.Drawing.Point(193, 232);
             this.txtRepass.Margin = new System.Windows.Forms.Padding(5);
             this.txtRepass.Name = "txtRepass";
             this.txtRepass.Size = new System.Drawing.Size(385, 27);
@@ -215,18 +219,60 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(9, 313);
+            this.label6.Location = new System.Drawing.Point(18, 240);
             this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(152, 19);
             this.label6.TabIndex = 12;
             this.label6.Text = "Re-type Password :";
             // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(193, 310);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(5);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(385, 27);
+            this.txtEmail.TabIndex = 15;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(95, 318);
+            this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(60, 19);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Email :";
+            // 
+            // txtAddress
+            // 
+            this.txtAddress.Location = new System.Drawing.Point(193, 270);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(5);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(385, 27);
+            this.txtAddress.TabIndex = 17;
+            // 
+            // Label8
+            // 
+            this.Label8.AutoSize = true;
+            this.Label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label8.Location = new System.Drawing.Point(83, 278);
+            this.Label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.Label8.Name = "Label8";
+            this.Label8.Size = new System.Drawing.Size(78, 19);
+            this.Label8.TabIndex = 16;
+            this.Label8.Text = "Address :";
+            // 
             // UserModuleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(705, 446);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.Label8);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.txtRepass);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnClear);
@@ -273,5 +319,9 @@
         public System.Windows.Forms.TextBox txtPhone;
         public System.Windows.Forms.TextBox txtRepass;
         private System.Windows.Forms.Label label6;
+        public System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label7;
+        public System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.Label Label8;
     }
 }
