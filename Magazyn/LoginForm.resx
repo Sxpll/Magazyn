@@ -121,7 +121,7 @@
   <data name="pictureBoxClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAB/9SURBVHhe7d0H
+        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAB/9SURBVHhe7d0H
         kP95Xd/xP/Vod1INbWhCDFUdpGRkkBpNAAEnjqG3DFJFEhIFAqImiNTgGOlOUANIiSEgCESlCRipIjVh
         qNKbCZxwHJe8Pnf+jr3/fXbf3939lW95PGcejvO//+7+77jb1/u3+9vdE5IkSZIkSZPqEnHKOf+vJEma
         Q1eKO8ej4j/Fa+KD8YX4evy/k3w1Phvvj/8ez4xHxE/G5UKSJI2wa0Ub7JfEJ+PkgT+uj8QL44Fx5ZAk
@@ -264,7 +264,7 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        0wAADdMBvdUcagAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADovSURBVHhe7d19
+        0gAADdIBb5L+jgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADovSURBVHhe7d19
         dJ1VnejxEZTLgnvV0bvw3qX+oV6Xzgw6966Re9dd0qR5bSkUBIG26Uva0KSBIqWlbdr0vUlFBwQHxRFf
         gEEvKL4AAmIRlLagQIG+t0DLjEV73po2lZbSt3TfveN0EppfaJ5k7/P8nud8//isNWuPNOfs85y9v/vk
         5Jy/MsYAKBGFabU1uSlVG7ITh7+RGVd23HH/txtz/z/pvwGQTuIggHSxm/s/5Oord+668nzzTtz/xv1v
@@ -519,7 +519,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAF8SSURBVHhe7Z0J
+        vwAADr8BOAVTJAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAF8SSURBVHhe7Z0J
         3H1lVe8xTXEGRxAwJgcQEBERHBCHRAYtS61bWVhdrby3TDO7ZjbdBq0szdIsb4PdyjIrUxwhBkEmERUQ
         FRUURRRHHEu79/cTnng5rHPevddea+/n2fv3/Xy+n+zP+55z9nnP2ed3nr2etXYQQgghhBBCCCGEEEII
         IYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEJMyk3gD1wn/7cQQgghZs4h8HT4/67zHHgEFEIIIcQM
